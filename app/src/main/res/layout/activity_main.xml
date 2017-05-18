@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="com.example.admin.singleviewapp.MainActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+
+
+    <TextView
+        android:text="welcome to australia"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#2962FF"/>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_weight="0">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_weight="0"
+            app:srcCompat="@drawable/australia" />
+
+    </RelativeLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:background="#1565C0"
+    android:layout_height="50dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sydney"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="@dimen/cardview_default_elevation"
+            card_view:cardCornerRadius="4dp">
+
+<RelativeLayout
+
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/imageButton2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingLeft="5dp"-->
+        <!--card_view:srcCompat="@drawable/call" />-->
+
+    <TextView
+        android:text="call"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#2962FF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:text="save"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#2962FF"
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="website"
+        android:textColor="#2962FF"
+        android:textStyle="bold"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:textAllCaps="true"/>
+
+
+</RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+    <!--LinearLayout of cardView ends here -->
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_weight="0"
+        android:paddingLeft="2dp"
+        card_view:srcCompat="@drawable/compass" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore Our Beautiful Capital City"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+</LinearLayout>
+
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Sydney, capital of New South Wales and one of Australia's \n largest cities, is best known for its harbourfront Sydney Opera House, with a distinctive sail-like design. \n\nMassive Darling Harbour and the smaller Circular Quay port are hubs of waterside life, with the arched Harbour Bridge and esteemed Royal Botanic Garden nearby. Sydney Tower’s outdoor platform, the Skywalk, offers 360-degree views of the city and suburbs.
+            \n\nArea: 12,368 km²
+            \nFounded: January 26, 1788
+            \nWeather:18°C, Wind NE at 13 km/h, 66% Humidity
+            \nLocal time: Thursday 10:16 PM
+            \nPopulation: 5,005,400 (2016) (1st)
+            \nState electorate(s): various (49)" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+
